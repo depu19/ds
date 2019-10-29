@@ -1,8 +1,6 @@
-/*
+package bst;/*
  * Copyright (c) 2018 JCPenney Co. All rights reserved.
  */
-
-import bst.BinarySearchTree;
 
 /**
  * Class for App.
