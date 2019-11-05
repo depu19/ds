@@ -1,6 +1,4 @@
-/*
- * Copyright (c) 2018 JCPenney Co. All rights reserved.
- */
+
 package map;
 
 /**
