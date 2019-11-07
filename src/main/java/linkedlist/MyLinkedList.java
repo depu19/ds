@@ -34,21 +34,16 @@ public class MyLinkedList<T> {
     return null;
   }
 
+
   public T get(int index) {
     Node<T> node  = head;
     int i = 1;
-    while(i >= 1 && i <= index){
-      if(node != null){
+    while(node!=null && i<index){
         node = node.next;
-      }
       i++;
     }
-    if( node != null){
       return node.data;
-    }
-    return null;
   }
-
 
 
   public void print(){

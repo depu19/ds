@@ -12,7 +12,8 @@ public class Runner {
     linkedList.addFirst("Shaz");
     linkedList.addFirst("Muzimil");
     linkedList.addFirst("Rashmi");
+    linkedList.addFirst("Rashmi5");
     linkedList.print();
-    System.out.println(linkedList.get(5));
+    System.out.println(linkedList.get3(1));
   }
 }
